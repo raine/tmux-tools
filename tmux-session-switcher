@@ -13,7 +13,7 @@
 
 target=$(tmux list-sessions -F '#{session_last_attached} #{session_name}' \
   | sort -rn \
-  | sed -E 's/^[0-9]+ //' \
+  | sed -E 's/^[0-9]* //' \
   | grep -v "^$(tmux display-message -p '#S')$" \
   | fzf --reverse)
 
