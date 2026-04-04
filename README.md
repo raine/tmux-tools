@@ -54,6 +54,11 @@ Create or switch to a tmux session for a project directory.
 
 ↳ https://github.com/raine/tmux-bro
 
+## Related projects
+
+- [workmux](https://github.com/raine/workmux) — Git worktrees + tmux windows for parallel AI agent workflows
+- [tmux-agent-usage](https://github.com/raine/tmux-agent-usage) — Display AI agent rate limit usage in your tmux status bar
+
 ## License
 
 MIT
